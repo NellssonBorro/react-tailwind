@@ -1,0 +1,38 @@
+
+.nav{
+  @apply sticky top-0 flex items-center justify-end gap-4 py-4;
+}
+.main-frame{
+  @apply container mx-auto max-w-screen-xl;
+  @apply bg-blue-500 h-screen;
+}
+.left-frame{
+  @apply bg-yellow-400;
+  @apply grid grid-cols-3 gap-4;
+}
+.search-frame{
+  @apply bg-red-500;
+}
+.list-frame{  
+  @apply bg-slate-500;
+}
+.logo-frame{
+  @apply bg-teal-800;
+}
+.right-frame{
+  @apply bg-green-500
+}
+
+.misc_butt{
+  @apply bg-sky-600 p-4 font-bold;
+  @apply rounded-md cursor-pointer hover:grow;
+  @apply hover:bg-sky-500 shadow-inner shadow-white;
+  /* @apply flex-auto; */
+}
+
+.my_border{
+  @apply border-solid divide-double outline-dotted;
+  @apply border-green-600 divide-red-600 outline-blue-600;
+  @apply border-8 divide-y-4 divide-x-4 outline-8;
+  @apply rounded-md p-4;
+}
